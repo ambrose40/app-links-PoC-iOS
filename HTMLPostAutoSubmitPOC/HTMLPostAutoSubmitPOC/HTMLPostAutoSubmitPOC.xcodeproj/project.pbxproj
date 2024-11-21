@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A744A4E2CECCCB500AD6C06 /* GCDWebServer in Frameworks */ = {isa = PBXBuildFile; productRef = 1A744A4D2CECCCB500AD6C06 /* GCDWebServer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A7449F32CECC01900AD6C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7449DA2CECC01700AD6C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7449E12CECC01700AD6C06;
+			remoteInfo = HTMLPostAutoSubmitPOC;
+		};
+		1A7449FD2CECC01900AD6C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7449DA2CECC01700AD6C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7449E12CECC01700AD6C06;
+			remoteInfo = HTMLPostAutoSubmitPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A7449E22CECC01700AD6C06 /* HTMLPostAutoSubmitPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMLPostAutoSubmitPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7449F22CECC01900AD6C06 /* HTMLPostAutoSubmitPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLPostAutoSubmitPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7449FC2CECC01900AD6C06 /* HTMLPostAutoSubmitPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLPostAutoSubmitPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1A68B1052CEF812800AAA6BF /* Exceptions for "HTMLPostAutoSubmitPOC" folder in "HTMLPostAutoSubmitPOC" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1A7449E12CECC01700AD6C06 /* HTMLPostAutoSubmitPOC */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1A7449E42CECC01700AD6C06 /* HTMLPostAutoSubmitPOC */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1A68B1052CEF812800AAA6BF /* Exceptions for "HTMLPostAutoSubmitPOC" folder in "HTMLPostAutoSubmitPOC" target */,
+			);
+			path = HTMLPostAutoSubmitPOC;
+			sourceTree = "<group>";
+		};
+		1A7449F52CECC01900AD6C06 /* HTMLPostAutoSubmitPOCTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HTMLPostAutoSubmitPOCTests;
+			sourceTree = "<group>";
+		};
+		1A7449FF2CECC01900AD6C06 /* HTMLPostAutoSubmitPOCUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HTMLPostAutoSubmitPOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A7449DF2CECC01700AD6C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A744A4E2CECCCB500AD6C06 /* GCDWebServer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7449EF2CECC01900AD6C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7449F92CECC01900AD6C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A7449D92CECC01700AD6C06 = {
+			isa = PBXGroup;
+			children = (
+				1A7449E42CECC01700AD6C06 /* HTMLPostAutoSubmitPOC */,
+				1A7449F52CECC01900AD6C06 /* HTMLPostAutoSubmitPOCTests */,
+				1A7449FF2CECC01900AD6C06 /* HTMLPostAutoSubmitPOCUITests */,
+				1A7449E32CECC01700AD6C06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A7449E32CECC01700AD6C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A7449E22CECC01700AD6C06 /* HTMLPostAutoSubmitPOC.app */,
+				1A7449F22CECC01900AD6C06 /* HTMLPostAutoSubmitPOCTests.xctest */,
+				1A7449FC2CECC01900AD6C06 /* HTMLPostAutoSubmitPOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A7449E12CECC01700AD6C06 /* HTMLPostAutoSubmitPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A744A062CECC01900AD6C06 /* Build configuration list for PBXNativeTarget "HTMLPostAutoSubmitPOC" */;
+			buildPhases = (
+				1A7449DE2CECC01700AD6C06 /* Sources */,
+				1A7449DF2CECC01700AD6C06 /* Frameworks */,
+				1A7449E02CECC01700AD6C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1A7449E42CECC01700AD6C06 /* HTMLPostAutoSubmitPOC */,
+			);
+			name = HTMLPostAutoSubmitPOC;
+			packageProductDependencies = (
+				1A744A4D2CECCCB500AD6C06 /* GCDWebServer */,
+			);
+			productName = HTMLPostAutoSubmitPOC;
+			productReference = 1A7449E22CECC01700AD6C06 /* HTMLPostAutoSubmitPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A7449F12CECC01900AD6C06 /* HTMLPostAutoSubmitPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A744A092CECC01900AD6C06 /* Build configuration list for PBXNativeTarget "HTMLPostAutoSubmitPOCTests" */;
+			buildPhases = (
+				1A7449EE2CECC01900AD6C06 /* Sources */,
+				1A7449EF2CECC01900AD6C06 /* Frameworks */,
+				1A7449F02CECC01900AD6C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7449F42CECC01900AD6C06 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1A7449F52CECC01900AD6C06 /* HTMLPostAutoSubmitPOCTests */,
+			);
+			name = HTMLPostAutoSubmitPOCTests;
+			packageProductDependencies = (
+			);
+			productName = HTMLPostAutoSubmitPOCTests;
+			productReference = 1A7449F22CECC01900AD6C06 /* HTMLPostAutoSubmitPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A7449FB2CECC01900AD6C06 /* HTMLPostAutoSubmitPOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A744A0C2CECC01900AD6C06 /* Build configuration list for PBXNativeTarget "HTMLPostAutoSubmitPOCUITests" */;
+			buildPhases = (
+				1A7449F82CECC01900AD6C06 /* Sources */,
+				1A7449F92CECC01900AD6C06 /* Frameworks */,
+				1A7449FA2CECC01900AD6C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7449FE2CECC01900AD6C06 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1A7449FF2CECC01900AD6C06 /* HTMLPostAutoSubmitPOCUITests */,
+			);
+			name = HTMLPostAutoSubmitPOCUITests;
+			packageProductDependencies = (
+			);
+			productName = HTMLPostAutoSubmitPOCUITests;
+			productReference = 1A7449FC2CECC01900AD6C06 /* HTMLPostAutoSubmitPOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A7449DA2CECC01700AD6C06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1A7449E12CECC01700AD6C06 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1A7449F12CECC01900AD6C06 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1A7449E12CECC01700AD6C06;
+					};
+					1A7449FB2CECC01900AD6C06 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1A7449E12CECC01700AD6C06;
+					};
+				};
+			};
+			buildConfigurationList = 1A7449DD2CECC01700AD6C06 /* Build configuration list for PBXProject "HTMLPostAutoSubmitPOC" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A7449D92CECC01700AD6C06;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1A744A4C2CECCCB500AD6C06 /* XCRemoteSwiftPackageReference "GCDWebServer" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1A7449E32CECC01700AD6C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A7449E12CECC01700AD6C06 /* HTMLPostAutoSubmitPOC */,
+				1A7449F12CECC01900AD6C06 /* HTMLPostAutoSubmitPOCTests */,
+				1A7449FB2CECC01900AD6C06 /* HTMLPostAutoSubmitPOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A7449E02CECC01700AD6C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7449F02CECC01900AD6C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7449FA2CECC01900AD6C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7449DE2CECC01700AD6C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7449EE2CECC01900AD6C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7449F82CECC01900AD6C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A7449F42CECC01900AD6C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7449E12CECC01700AD6C06 /* HTMLPostAutoSubmitPOC */;
+			targetProxy = 1A7449F32CECC01900AD6C06 /* PBXContainerItemProxy */;
+		};
+		1A7449FE2CECC01900AD6C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7449E12CECC01700AD6C06 /* HTMLPostAutoSubmitPOC */;
+			targetProxy = 1A7449FD2CECC01900AD6C06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A744A042CECC01900AD6C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A744A052CECC01900AD6C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A744A072CECC01900AD6C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HTMLPostAutoSubmitPOC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HTMLPostAutoSubmitPOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nortal.HTMLPostAutoSubmitPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A744A082CECC01900AD6C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HTMLPostAutoSubmitPOC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HTMLPostAutoSubmitPOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nortal.HTMLPostAutoSubmitPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A744A0A2CECC01900AD6C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nortal.HTMLPostAutoSubmitPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTMLPostAutoSubmitPOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HTMLPostAutoSubmitPOC";
+			};
+			name = Debug;
+		};
+		1A744A0B2CECC01900AD6C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nortal.HTMLPostAutoSubmitPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTMLPostAutoSubmitPOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HTMLPostAutoSubmitPOC";
+			};
+			name = Release;
+		};
+		1A744A0D2CECC01900AD6C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nortal.HTMLPostAutoSubmitPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HTMLPostAutoSubmitPOC;
+			};
+			name = Debug;
+		};
+		1A744A0E2CECC01900AD6C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nortal.HTMLPostAutoSubmitPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HTMLPostAutoSubmitPOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7449DD2CECC01700AD6C06 /* Build configuration list for PBXProject "HTMLPostAutoSubmitPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A744A042CECC01900AD6C06 /* Debug */,
+				1A744A052CECC01900AD6C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A744A062CECC01900AD6C06 /* Build configuration list for PBXNativeTarget "HTMLPostAutoSubmitPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A744A072CECC01900AD6C06 /* Debug */,
+				1A744A082CECC01900AD6C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A744A092CECC01900AD6C06 /* Build configuration list for PBXNativeTarget "HTMLPostAutoSubmitPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A744A0A2CECC01900AD6C06 /* Debug */,
+				1A744A0B2CECC01900AD6C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A744A0C2CECC01900AD6C06 /* Build configuration list for PBXNativeTarget "HTMLPostAutoSubmitPOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A744A0D2CECC01900AD6C06 /* Debug */,
+				1A744A0E2CECC01900AD6C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A744A4C2CECCCB500AD6C06 /* XCRemoteSwiftPackageReference "GCDWebServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yene/GCDWebServer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.5.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A744A4D2CECCCB500AD6C06 /* GCDWebServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A744A4C2CECCCB500AD6C06 /* XCRemoteSwiftPackageReference "GCDWebServer" */;
+			productName = GCDWebServer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A7449DA2CECC01700AD6C06 /* Project object */;
+}
